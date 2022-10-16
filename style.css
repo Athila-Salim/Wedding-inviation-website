@@ -1,0 +1,86 @@
+
+.navbar-brand{
+    font-style: oblique;
+    font-size: 30px;
+    }
+    img.slide{
+        height: 500px;
+        background-size: cover;
+       
+    }
+    h5 {
+        text-align: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size:60px ;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+    }
+    p{
+        font-style: italic;
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .card {
+        margin-left: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 20px; 
+       
+    }
+    .nav-item{
+        font-size: larger;
+    }
+    
+    #countdown li {
+        display: inline-block;
+        font-size: 1.5em;
+        list-style-type: none;
+        padding: 1em;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      
+      #countdown li span {
+        display: block;
+        font-size: 4.5rem;
+      }
+      
+      
+.btn{
+    background-color: brown;
+}
+      
+    .social-icon {
+        color: white;
+        font-size: 30px;
+    }
+    .social-icon :hover{
+        color: white;
+    }
+    .fa-instagram:hover {
+        background-color: #E1306C
+      }
+      
+      
+      .fa-facebook:hover {
+        background-color: #3b5998;;
+      }
+      
+      .fa-twitter:hover {
+        background-color: #00aced;
+      }
+      
+    @media screen and (max-width: 786px){ /* smartphone,android phones, lanscape iphone*/
+    
+        body *{
+          box-sizing: border-box;
+          overflow-x: hidden;
+        }
+        
+          
+        
+        }
